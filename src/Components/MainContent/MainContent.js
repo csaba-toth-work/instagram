@@ -1,5 +1,10 @@
 import React, {Component} from 'react';
 import "./MainContent.css"
+import Grid from '@material-ui/core/Grid';
+import StatusBar from "../StatusBar/StatusBar.js";
+import MainPage from "../MainPage/MainPage.js";
+import InfoSection from "../InfoSection/InfoSection.js";
+import Suggestions from "../Suggestions/Suggestions.js";
 
 class MainContent extends Component {
     constructor(props) {
@@ -9,7 +14,23 @@ class MainContent extends Component {
     render() {
 return (
     <div>
-        Main Content
+        <Grid container>
+            <Grid item xs={2}></Grid>
+            <Grid item xs={6}>
+                <div>
+                    <StatusBar />
+                    <MainPage />
+                </div>
+            </Grid>
+            <Grid item xs={2}>
+                <InfoSection />
+                <Suggestions />
+            </Grid>
+            <Grid item xs={2}>
+                
+            </Grid>
+
+        </Grid>
     </div>
  );
     }
