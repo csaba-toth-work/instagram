@@ -1,0 +1,12 @@
+.navbar_barContent {
+    height: 54px;
+    background-color: white;
+    border-bottom: 1px solid #dbdbdb;
+}
+.navbar_logo {
+    margin-top: 10px;
+
+}
+.navbar_img {
+    margin:15px 10px;
+}
