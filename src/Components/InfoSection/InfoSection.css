@@ -1,20 +1,20 @@
-.info_container {
-width: 300px;
-height: 56px;
-margin-top: 50px;
-display: flex;
+.info__container {
+    width: 300px;
+    height: 56px;
+    margin-top: 50px;
+    display: flex;
 }
-.info_image {
-min-width: 60px;
-min-height: 60px;
+.info__image{
+    min-width: 60px;
+    min-height: 60px;
 }
-.info_container {
-margin-left: 20px;
+.info_content {
+    margin-left: 20px;
 }
 .info_username {
     margin: 5px;
-    font: bold;
+    font-weight: bold;
 }
-.info_desciption {
+.info_description{
     margin: 5px;
 }

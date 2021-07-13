@@ -1,16 +1,15 @@
-.navbar_barContent {
+.navbar__barContent {
     height: 54px;
     background-color: white;
     border-bottom: 1px solid #dbdbdb;
 }
-.navbar_logo {
+.navbar_logo{
     margin-top: 10px;
-
 }
-.navbar_img {
+.navbar__img {
     margin:15px 10px;
 }
-.navbar_searchbar {
+.navbar__searchBar {
     height: 30px;
     width: 215px;
     margin-top: 10px;
