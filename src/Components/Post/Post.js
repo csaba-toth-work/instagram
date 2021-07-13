@@ -41,7 +41,7 @@ class Post extends Component {
         //     }
         // ];
 
-        fetch('http://localhost:8080/comments/'+this.props.id)
+        fetch('https://instagram-copy-2021.herokuapp.com/comments/'+this.props.id)
             .then(response => response.json())
             .then(data => {
                 this.setState({commentList: data});
@@ -68,7 +68,7 @@ class Post extends Component {
                     body : JSON.stringify(payload),
                 }
     
-                fetch("http://localhost:8080/comments",requestOptions)
+                fetch("https://instagram-copy-2021.herokuapp.com/comments",requestOptions)
                 .then(response => response.json())
                 .then(data => {
                     this.getComments();
